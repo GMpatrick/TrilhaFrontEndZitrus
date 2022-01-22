@@ -10,5 +10,8 @@ e pra gente marcar esse texto a gente tem que usar as tags <tag>
 # para o primeiro paragrafo 
     usaremos a tag <p> (paragrahp)
 
-# para marcar um conteudo importante usaremos a tag 
+# para marcar um conteudo importante usaremos a tag (ela tambem deixa em negrito) 
     <Strong> (forte)
+
+# Para deixar em italico ()
+    <em> 
