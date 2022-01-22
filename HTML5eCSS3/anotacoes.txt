@@ -33,4 +33,10 @@ e pra gente marcar esse texto a gente tem que usar as tags <tag>
     dentro do html existe uma divisão estrutural
     e os dados que passamos para o navegador <head> (cabeça)
     o que mostramos no navegador <body> (corpo)
+
+# comentarios
+    <!--  -->
     
+# Usando a propriedade style
+    aumentar o tamanho da fonte: style="font-size: 20px"
+    centralizar algo: style="text-align: center;">
