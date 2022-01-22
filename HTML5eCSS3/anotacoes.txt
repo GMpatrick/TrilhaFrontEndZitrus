@@ -1,0 +1,14 @@
+uma pagina web tem seu conteudo demarcado pelo html
+html significa: hyper text marcation lenguage 
+e pra gente marcar esse texto a gente tem que usar as tags <tag>
+
+
+# para o titulo
+    <h> (heading)
+    existem 6 niveis de titulo, para o titulo da pagina vamos usar o h1
+
+# para o primeiro paragrafo 
+    usaremos a tag <p> (paragrahp)
+
+# para marcar um conteudo importante usaremos a tag 
+    <Strong> (forte)
