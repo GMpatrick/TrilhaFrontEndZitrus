@@ -43,3 +43,27 @@ e pra gente marcar esse texto a gente tem que usar as tags <tag>
 
 # mudar o background 
     background: #CCCCCC
+
+# no css para especificar exatamente a tag que queremos modificar 
+    temos que colocar o id na tag 
+
+# adicionar uma imagem ao site]
+    no body colocar isso: <img src="">
+
+#  mudar altura e largura entre outars coisas
+    width: 100% ou 800 px (altura)
+    height: 100% ou 800 px (largura)
+
+    text-align: center;
+    height: 150px;
+    border: 10px solid #000000;
+    padding-top: 20px;
+    margin: 40px;
+
+# para criar uma lista e nosso site
+    <ul>
+        <li class="itens"> Atendimento aos clientes
+        <li class="itens"> Espaço diferneciado
+        <li class="itens"> Localização
+        <li class="itens"> Profissionais qualificados
+    </ul>
