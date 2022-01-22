@@ -13,5 +13,24 @@ e pra gente marcar esse texto a gente tem que usar as tags <tag>
 # para marcar um conteudo importante usaremos a tag (ela tambem deixa em negrito) 
     <Strong> (forte)
 
-# Para deixar em italico ()
+# Para deixar em italico 
     <em> 
+
+# para o navegador saber que estamos executando o html5 
+   <!DOCTYPE html> colocar isso na primeira linha do texto 
+
+# Passar informações para o navegador
+    <meta> utilizamos a tag meta para isso ex: <meta charset="UTF-8">
+    nesse caso resolveremos o problema de acento, Ç , ~
+
+# para dizer qual o idioma da nossa pagina
+    dentro da tag html passamos <html lang="pt-br">
+    
+# para definir o nome da pagina
+    <title> Barbearia alura</title>
+
+#### importante
+    dentro do html existe uma divisão estrutural
+    e os dados que passamos para o navegador <head> (cabeça)
+    o que mostramos no navegador <body> (corpo)
+    
