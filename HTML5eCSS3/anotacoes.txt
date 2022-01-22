@@ -40,3 +40,6 @@ e pra gente marcar esse texto a gente tem que usar as tags <tag>
 # Usando a propriedade style
     aumentar o tamanho da fonte: style="font-size: 20px"
     centralizar algo: style="text-align: center;">
+
+# mudar o background 
+    background: #CCCCCC
