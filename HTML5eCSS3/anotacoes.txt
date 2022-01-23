@@ -67,3 +67,34 @@ e pra gente marcar esse texto a gente tem que usar as tags <tag>
         <li class="itens"> Localização
         <li class="itens"> Profissionais qualificados
     </ul>
+
+# Para criar um link para uma nova pagina
+    usamos a tag <a>
+    exemplo: <li><a href="index.html">Home</a></li>
+
+    * para colocar a uma pagina externa ao site
+    exemplo: <li><a href="http://www.google.com">Home</a></li>
+
+# para alterarmos a forma que os itens são exibidos temos que mecher no display
+    temos a inline e a block
+    inline: o conteudo da tag é do tamnho do conteudo que esta ali, mostra um do lado do outro
+    block: o tamnho dela vai ser sempre do tamanho da pagina, mostra um embaixo do outro
+
+# tirar a borda branca que não pedimos
+    usamos o um a arquivo css reset.css
+
+# para uma melhor estrutura da nossa pagina, usamos
+    o <header> para o cabeçalho
+    o <main> para o corpo principal
+
+# mapear quando o mause esta em cima do elemneto
+    usamos o hover no css
+    nav a:hover{
+    
+    }
+    (quando o mause esta por cima dos links dentro do menu de navegação)
+
+# mapear quando o mause clica
+    .produtos li:active{
+    border: 3px solid #088c19
+    }
