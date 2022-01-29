@@ -3,48 +3,97 @@
 
     <head> <!-- dados que eu vou passar para o navegador-->
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
         <title> Barbearia alura</title>
-        <link rel="stylesheet" href="style-home.css"> <!--ligação de um arquivo para outro-->
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css"><!--logação com o css da pagina-->
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        
+
+
     </head>
 
 
 
     <body><!--dados que serão mostrado na pagina-->
 
-        <header>
-           <h1 class="titulo-principal"> Barbearia Alura </h1>
+        <header> <!--Cabeçalho do nosso conteudo-->
+            <div class="caixa">
+                <h1>
+                   <img src="C:\Users\Patrickk\Documents\Proejtos\VScode\TrilhaFrontEndZitrus\HTML5eCSS3\imagemProdutos\logo.png"
+                   alt="Logo da Barbearia alura">
+                </h1>
+    
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="contato.html">Contatos</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
 
-        <img id="banner" src="C:\Users\Patrickk\Documents\Proejtos\VScode\TrilhaFrontEndZitrus\HTML5eCSS3\imagem\banner.jpg">
-
-        <div class="Principal">
-            <h2 class="titula-centralizado">Sobre a Barbearia Alura</h2>
-
-            <p>Localizada no coração da cidade a Barbearia Alura traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a 
-                <strong>Barbearia Alura</strong> já é destaque na cidade e conquista novos clientes a cada dia. </p>
-            
-            <p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes".</strong></em></p>
-            
-            <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. 
-                O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
-        </div>
-
-        <div class="Beneficios">
-            <h3 class="titula-centralizado">Beneficios</h3>
-
-            <ul >
-                <li class="itens"> Atendimento aos clientes
-                <li class="itens"> Espaço diferneciado
-                <li class="itens"> Localização
-                <li class="itens"> Profissionais qualificados
-            </ul>
-
-            <img id="imagemBeneficios" src="C:\Users\Patrickk\Documents\Proejtos\VScode\TrilhaFrontEndZitrus\HTML5eCSS3\imagem\beneficios.jpg" alt="">
-
-        </div>
-
-
+        <img class="banner" src="C:\Users\Patrickk\Documents\Proejtos\VScode\TrilhaFrontEndZitrus\HTML5eCSS3\imagem\banner.jpg">
     
+        <main>
+            <section>
+                <div class="principal">
+                    <h2 class="titulo-principal">Sobre a Barbearia Alura</h2>
+                    
+                    <IMG src="C:\Users\Patrickk\Documents\Proejtos\VScode\TrilhaFrontEndZitrus\HTML5eCSS3\imagemProdutos\utensilios.jpg"
+                    class="utensilios" alt="Utensilios de um berbeiro"> 
+                    <p>Localizada no coração da cidade a Barbearia Alura traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a 
+                        <strong>Barbearia Alura</strong> já é destaque na cidade e conquista novos clientes a cada dia. </p>
+                    
+                    <p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes".</strong></em></p>
+                    
+                    <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. 
+                        O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+                </div>
+            </section>
+                <section class="mapa">
+                    <h3 class="titulo-principal"> Nosso estabelecimento  </h3>
+                    <p>Nosso estabelecimento esta localizado no coração da cidade </p>
+                    <div class="mapa-conteudo">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3575.888192989752!2d-48.90898074887576!3d-26.330119683300392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94debaee38df824b%3A0x7d24ab6b951ea753!2sEstr.%20Lagoinha%2C%20367%20-%20Morro%20do%20Meio%2C%20Joinville%20-%20SC%2C%2089215-200!5e0!3m2!1spt-BR!2sbr!4v1643477016184!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </section>
+            
+
+            <section>
+                <div class="Beneficios">
+                    <h3 class="titulo-principal">Beneficios</h3>
+                    
+                    <div class="conteudo-beneficios">
+                        <ul class="lista-beneficios">
+                            <li class="itens"> Atendimento aos clientes </li>
+                            <li class="itens"> Espaço diferneciado </li>
+                            <li class="itens"> Localização </li>
+                            <li class="itens"> Profissionais qualificados </li>
+
+                            <li class="itens"> Pontualidade </li>
+                            <li class="itens"> Limpeza </li>
+                        </ul><img class="imagemBeneficios" src="C:\Users\Patrickk\Documents\Proejtos\VScode\TrilhaFrontEndZitrus\HTML5eCSS3\imagem\beneficios.jpg" alt="">
+                    </div>
+
+                    <div class="video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/f9hozm9V7qo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+
+
+        <footer> <!--rodapé do nosso site-->
+            <img src="C:\Users\Patrickk\Documents\Proejtos\VScode\TrilhaFrontEndZitrus\HTML5eCSS3\imagemProdutos\logo-branco.png"
+            alt="Logo da barbearia alura">
+            <p class="copyrhight">&copy; Copyright Barbearia Alura - 2019</p>
+        </footer>
     </body>
 
 
